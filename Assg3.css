@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+nav{
+    background-color: red;
+}
+
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+a{
+    margin: 20px;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(180, 168, 168);
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+
+
