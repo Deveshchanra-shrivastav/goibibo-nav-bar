@@ -1,42 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color: skyblue;
-}
-nav{
-    background-color: red;
 }
 
-#cont{
+header{
+    padding: 15px 40px;
+    height: 35px;
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(218, 137, 30);
+}
+#left{
+    font-weight: bold;
+    display: flex;
+    gap: 0;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#go{
+    color: #d0651d;
+}
+#ibibo{
+    color: rgb(50, 50, 155);
+}
+
+#center, #right{
+    
+    font-weight: bold;
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+a img{
+    color: white;
+    height: 30px;
 }
 a{
-    margin: 20px;
-    padding: 10px;
-    font-size: 22px;
+    color: rgba(0, 0, 0, 0.718);
+    font-weight: bold;
     text-decoration: none;
-    color: rgb(180, 168, 168);
 }
-
 a:hover{
-    color: white;
-    background-color: black;
+    border: 2px solid blue;
+    font-size: 25px;
+    color: rgb(50, 50, 155);
+    text-decoration: underline;
+    border: 10px;
+    
 }
 
-#menu{
-    list-style-type: none;
-    padding: 0;
-    position: absolute;
-    display: none;
+#SignUp{
+    text-align: center;
+    padding: 8px;
+    border: 2px solid black;
+}
+#SignUp:hover{
+    transition: 1s;
+    font-size: 25px;
+    border: 2px solid blue;
 }
 
-#drop:hover #menu{
-    display: block;
+
+#LogIn{
+    text-align: center;
+    padding: 8px;
+    border: 2px solid white;
 }
-
-
-
+#LogIn:hover{
+    transition: 1s;
+    font-size: 25px;
+    border: 2px solid blue;
+}
